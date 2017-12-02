@@ -2,7 +2,7 @@ package com.t0lia.dessign_pattern.I_creational.builder;
 
 import org.testng.annotations.Test;
 
-public class Builder {
+public class BuilderTest {
     @Test public void test() {
         Coffee americano  = new Coffee.CoffeeBuilder(2).water(3).build();
         Coffee espresso   = new Coffee.CoffeeBuilder(1).build();

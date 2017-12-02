@@ -1,5 +1,8 @@
 package com.t0lia.dessign_pattern.I_creational.builder;
 
+import com.t0lia.dessign_pattern.I_creational.abstract_factory.AbstractCarFactory;
+import com.t0lia.dessign_pattern.I_creational.factory_method.FactoryMethod;
+
 /**
  * <strong>Description</strong>
  * <p>
@@ -52,10 +55,12 @@ package com.t0lia.dessign_pattern.I_creational.builder;
  *
  * <string>Родственные шаблоны</string>
  * <ul>
- *     <li>{@link com.t0lia.dessign_pattern.I_creational.abstract_factory.AbstractCarFactory},
- *     {@link com.t0lia.dessign_pattern.I_creational.factory_method.FactoryMethod} - builder с преднастроенными
+ *     <li>{@link AbstractCarFactory}, {@link FactoryMethod} - builder с преднастроенными
  *     параметрами. Используется для передачи в метод и последующего вызова build()</li>
- *     <li></li>
+ * </ul>
+ * <strong>Implementation</strong>
+ * <ul>
+ *     <li>{@link Coffee.CoffeeBuilder}</li>
  * </ul>
  * <strong>Improvements</strong>
  * <p>
