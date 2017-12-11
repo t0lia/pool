@@ -13,7 +13,7 @@ import com.t0lia.design_pattern.I_creational.singleton.Singleton;
  *
  * Common implementation of {@link Singleton}. Use public static field to store instance
  */
-public class StaticFieldSingleton {
+public class StaticFieldSingleton implements Singleton{
     private StaticFieldSingleton() { }
 
     public static final StaticFieldSingleton INSTANCE = new StaticFieldSingleton();

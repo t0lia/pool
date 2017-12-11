@@ -14,7 +14,7 @@ import com.t0lia.design_pattern.I_creational.singleton.Singleton;
  *
  * This {@link Singleton} use static method to access private instance. This implementation is not lazy.
  */
-public class StaticMethodSingleton {
+public class StaticMethodSingleton implements Singleton{
     private StaticMethodSingleton() { }
 
     private static final StaticMethodSingleton INSTANCE = new StaticMethodSingleton();

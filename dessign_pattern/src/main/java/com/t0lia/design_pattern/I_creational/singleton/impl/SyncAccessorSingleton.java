@@ -14,7 +14,7 @@ import com.t0lia.design_pattern.I_creational.singleton.Singleton;
  * Synchronized accessor {@link Singleton} use synchronized method in instance initialization.
  * Used private lock which not allow client to lock on class
  */
-public class SyncAccessorSingleton {
+public class SyncAccessorSingleton implements Singleton{
     private final static Object lock = new Object();
     private static SyncAccessorSingleton instance;
 

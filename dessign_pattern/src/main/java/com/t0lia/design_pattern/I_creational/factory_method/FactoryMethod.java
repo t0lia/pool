@@ -18,7 +18,7 @@ package com.t0lia.design_pattern.I_creational.factory_method;
  *     <li>Design Pattern, GOF</li>
  * </ul>
  *
- * <string>Родственные шаблоны</string>
+ * <string>Related patterns</string>
  * <ul></ul>
  * <strong>Improvements</strong>
  * <p>

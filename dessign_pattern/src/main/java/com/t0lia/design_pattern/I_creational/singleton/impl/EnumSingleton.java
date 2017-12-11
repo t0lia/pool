@@ -13,7 +13,7 @@ import com.t0lia.design_pattern.I_creational.singleton.Singleton;
  *
  * {@link Singleton} recomended by J.Bloch implementation. Pros: serilization out of the box. But this implementation is not lazy
  */
-public enum EnumSingleton {
+public enum EnumSingleton implements Singleton{
     INSTANCE;
 
     public static EnumSingleton getInstance() {

@@ -14,7 +14,7 @@ import com.t0lia.design_pattern.I_creational.singleton.Singleton;
  * This {@link Singleton} implementation isn't prevent repeated initialization. Using volatile instance
  * our null check is multithread ready, but if block isn't atomic and can interrupt by other thread
  */
-public class SCSingleton {
+public class SCSingleton implements Singleton{
     private SCSingleton() { }
 
     private static volatile SCSingleton INSTANCE;

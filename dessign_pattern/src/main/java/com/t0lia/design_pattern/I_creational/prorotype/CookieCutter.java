@@ -11,7 +11,7 @@ package com.t0lia.design_pattern.I_creational.prorotype;
  * <li> Objects are required that are similar to existing objects.</li>
  * </ul>
  */
-class CookieCutter implements Cloneable{
+class CookieCutter implements Cloneable, Prototype{
     private final int size;
     private final CookieForm form;
 

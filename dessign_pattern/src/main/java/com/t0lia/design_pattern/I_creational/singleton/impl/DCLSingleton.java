@@ -18,7 +18,7 @@ import com.t0lia.design_pattern.I_creational.singleton.Singleton;
  *     <li>INSTANCE is volatile. Because without volatile first check is not determied in multithreading environment</li>
  * </ol>
  */
-public class DCLSingleton {
+public class DCLSingleton implements Singleton{
     private DCLSingleton() { }
 
     private static volatile DCLSingleton INSTANCE;

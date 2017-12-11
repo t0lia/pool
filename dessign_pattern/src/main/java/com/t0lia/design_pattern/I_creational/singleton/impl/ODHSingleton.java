@@ -14,7 +14,7 @@ import com.t0lia.design_pattern.I_creational.singleton.Singleton;
  * On demand holder idiom. Use ideas what {@link Singleton} init when client trying access inner class aka Holder.
  * In case accessing Singleton class INSTANCE is not initialized.
  */
-public class ODHSingleton {
+public class ODHSingleton implements Singleton{
 
     public static ODHSingleton getInstance() {
         return Holder.INSTANCE;
