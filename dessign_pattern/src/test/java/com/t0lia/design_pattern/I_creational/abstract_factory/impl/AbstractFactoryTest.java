@@ -17,6 +17,7 @@ public class AbstractFactoryTest {
     @Test(dataProvider = "factories")
     public void testAbstractFactory(PhoneFactory factory) {
         Phone phone = new Phone(factory);
+        System.out.println(phone);
     }
 
 }

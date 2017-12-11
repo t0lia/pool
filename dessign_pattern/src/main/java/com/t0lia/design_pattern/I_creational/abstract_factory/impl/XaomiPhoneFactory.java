@@ -6,9 +6,24 @@ import com.t0lia.design_pattern.I_creational.abstract_factory.Display;
 import com.t0lia.design_pattern.I_creational.abstract_factory.PhoneFactory;
 
 public class XaomiPhoneFactory implements PhoneFactory {
-    final private static Body XAOMI_BODY       = new Body() { };
-    final private static Battery XAOMI_BATTERY = new Battery() { };
-    final private static Display XAOMI_DISPLAY = new Display() { };
+    final private static Body XAOMI_BODY = new Body() {
+        @Override
+        public String toString() {
+            return "xaomi body";
+        }
+    };
+    final private static Battery XAOMI_BATTERY = new Battery() {
+        @Override
+        public String toString() {
+            return "xaomi battery";
+        }
+    };
+    final private static Display XAOMI_DISPLAY = new Display() {
+        @Override
+        public String toString() {
+            return "xaomi display";
+        }
+    };
 
 
     @Override

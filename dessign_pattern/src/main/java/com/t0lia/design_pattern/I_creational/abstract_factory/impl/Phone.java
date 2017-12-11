@@ -15,4 +15,13 @@ public class Phone {
         this.display = factory.getDisplay();
         this.battery = factory.getBattery();
     }
+
+    @Override
+    public String toString() {
+        return "Phone{" +
+                "body=" + body +
+                ", display=" + display +
+                ", battery=" + battery +
+                '}';
+    }
 }

@@ -1,6 +1,6 @@
 package com.t0lia.design_pattern.III_behavioral.observer;
 
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +27,7 @@ class Subscriber {
 
 
 public class Observer {
-    @Test
+//    @Test
     public void testName() {
         Publisher publisher = new Publisher();
         Subscriber subscriber = new Subscriber();
