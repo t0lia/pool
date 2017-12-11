@@ -1,4 +1,4 @@
-package com.t0lia.design_pattern.core;
+package com.t0lia.design_pattern.core.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

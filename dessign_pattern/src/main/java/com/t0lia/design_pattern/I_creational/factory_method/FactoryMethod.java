@@ -3,10 +3,10 @@ package com.t0lia.design_pattern.I_creational.factory_method;
 import java.util.function.Supplier;
 
 
-interface CarSupplier extends Supplier<Car> {
+interface CarSupplier extends Supplier<Phone> {
 }
 
-class Honda extends Car {
+class Honda extends Phone {
     @Override
     public String toString() {
         return "honda";
@@ -15,19 +15,19 @@ class Honda extends Car {
 
 class MitsubishiSupplier implements CarSupplier {
     @Override
-    public Car get() {
+    public Phone get() {
         return new Mitsubishi();
     }
 }
 
 class HondaSupplier implements CarSupplier {
     @Override
-    public Car get() {
+    public Phone get() {
         return new Honda();
     }
 }
 
-class Mazda extends Car {
+class Mazda extends Phone {
     @Override
     public String toString() {
         return "mazda";
@@ -36,12 +36,12 @@ class Mazda extends Car {
 
 class MazdaSupplier implements CarSupplier {
     @Override
-    public Car get() {
+    public Phone get() {
         return new Mazda();
     }
 }
 
-class Mitsubishi extends Car {
+class Mitsubishi extends Phone {
     @Override
     public String toString() {
         return "mitsubishi";

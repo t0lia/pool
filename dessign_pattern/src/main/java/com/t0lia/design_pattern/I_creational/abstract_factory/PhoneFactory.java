@@ -1,8 +1,5 @@
 package com.t0lia.design_pattern.I_creational.abstract_factory;
 
-import com.t0lia.design_pattern.I_creational.abstract_factory.data.Body;
-import com.t0lia.design_pattern.I_creational.abstract_factory.data.Engine;
-import com.t0lia.design_pattern.I_creational.abstract_factory.data.Whell;
 
 /**
  * <strong>Description</strong>
@@ -30,10 +27,10 @@ import com.t0lia.design_pattern.I_creational.abstract_factory.data.Whell;
  * <strong>JDK examples:</strong>
  * <ul></ul>
  * <p>
-**/
-public interface AbstractCarFactory {
-    Whell newWheel();
-    Engine newEngine();
-    Body newBody();
-}
+ **/
+public interface PhoneFactory {
 
+    Body getBody();
+    Display getDisplay();
+    Battery getBattery();
+}

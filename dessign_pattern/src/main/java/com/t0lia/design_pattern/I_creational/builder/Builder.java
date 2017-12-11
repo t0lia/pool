@@ -1,6 +1,6 @@
 package com.t0lia.design_pattern.I_creational.builder;
 
-import com.t0lia.design_pattern.I_creational.abstract_factory.AbstractCarFactory;
+import com.t0lia.design_pattern.I_creational.abstract_factory.AbstractFactory;
 import com.t0lia.design_pattern.I_creational.factory_method.FactoryMethodI;
 
 /**
@@ -55,7 +55,7 @@ import com.t0lia.design_pattern.I_creational.factory_method.FactoryMethodI;
  *
  * <string>Родственные шаблоны</string>
  * <ul>
- *     <li>{@link AbstractCarFactory}, {@link FactoryMethodI} - builder с преднастроенными
+ *     <li>{@link AbstractFactory}, {@link FactoryMethodI} - builder с преднастроенными
  *     параметрами. Используется для передачи в метод и последующего вызова build()</li>
  * </ul>
  * <strong>Implementation</strong>
