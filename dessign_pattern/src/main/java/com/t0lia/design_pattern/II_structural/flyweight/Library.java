@@ -15,7 +15,7 @@ public class Library {
     }
 
     public Optional<Book> getByTitle(String title) {
-        return Optional.of(pool.get(title));
+        return Optional.ofNullable(pool.get(title));
     }
 
 }
